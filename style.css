@@ -1,0 +1,36 @@
+body{
+    background-size: cover;
+    font-family: 'Cabin', sans-serif;
+}
+
+.heading{
+    margin: 0px;
+    width: 100%;
+    font-size: 20px;
+}
+
+#objectFound, #status{
+    font-size: 20px;
+}
+
+.copyright_footer{
+position: fixed;
+bottom: 0; 
+width: 100%;
+text-align: center; 
+background-color: rgb(63, 177, 234);
+line-height: 3;
+}
+
+canvas{
+    box-shadow: 5px 5px 5px white;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 15px;
+}
+
+#objectInput{
+    width: 250px;
+    border: 2px solid rgb(63, 177, 234);
+    margin-top: 10px;
+}
